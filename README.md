@@ -20,46 +20,28 @@ A **real-time flight tracking web application** that allows users to enter a fli
 
 ## 📦 Installation & Running Locally
 ### **1️⃣ Clone the Repository**
-```bash
+
 git clone https://github.com/YOUR-USERNAME/flight-tracker.git
-cd flight-tracker
+
 2️⃣ Set Up a Virtual Environment (Recommended)
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On Mac/Linux
-venv\Scripts\activate      # On Windows
+
 3️⃣ Install Dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 4️⃣ Run the Flask App
-bash
-Copy
-Edit
+
 python app.py
 The app will be available at http://127.0.0.1:5000/.
 
 🌍 Deployment (Render)
+
 Push your code to GitHub.
 Connect your repository on Render
 Use these commands for deployment:
 Build Command: pip install -r requirements.txt
 Start Command: gunicorn app:app
+
 Click "Deploy" and wait for the app to go live.
-📝 API Setup
-You need an AviationStack API Key to fetch flight details.
-Get one from AviationStack.
-Add it in app.py:
-python
-Copy
-Edit
-API_KEY = "your-api-key-here"
-📌 Next Steps
-🔹 Improve image fetching for aircraft.
-🔹 Add search by airports & departure time.
-🔹 Deploy with a custom domain.
+
 📄 License
 This project is open-source under the MIT License.
