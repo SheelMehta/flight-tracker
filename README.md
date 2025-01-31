@@ -28,9 +28,11 @@ git clone https://github.com/YOUR-USERNAME/flight-tracker.git
 3️⃣ Install Dependencies
 
 pip install -r requirements.txt
+
 4️⃣ Run the Flask App
 
 python app.py
+
 The app will be available at http://127.0.0.1:5000/.
 
 🌍 Deployment (Render)
